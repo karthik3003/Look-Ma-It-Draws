@@ -10,29 +10,31 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    static var crntColour:UIColor = UIColor.black
+    
     
     @IBAction func buttonRed(_ sender: Any) {
-        UIColor.red.setStroke()
+        ViewController.crntColour = UIColor.red
     }
     
     @IBAction func buttonOrange(_ sender: Any) {
-        UIColor.orange
+        ViewController.crntColour = UIColor.orange
     }
     
     @IBAction func buttonYellow(_ sender: Any) {
-        UIColor.yellow
+        ViewController.crntColour = UIColor.yellow
     }
     
     @IBAction func buttonGreen(_ sender: Any) {
-        UIColor.green
+        ViewController.crntColour = UIColor.green
     }
     
     @IBAction func buttonBlue(_ sender: Any) {
-        UIColor.blue
+        ViewController.crntColour = UIColor.blue
     }
     
     @IBAction func buttonPurple(_ sender: Any) {
-        UIColor.purple
+        ViewController.crntColour = UIColor.purple
     }
     
     override func viewDidLoad() {

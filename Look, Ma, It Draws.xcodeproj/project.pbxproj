@@ -13,7 +13,8 @@
 		CC1439B51FCD05B00013246C /* Look__Ma__It_Draws.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC1439B31FCD05B00013246C /* Look__Ma__It_Draws.xcdatamodeld */; };
 		CC1439B71FCD05B00013246C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1439B61FCD05B00013246C /* Assets.xcassets */; };
 		CC1439BA1FCD05B00013246C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1439B81FCD05B00013246C /* LaunchScreen.storyboard */; };
-		CC1439C21FCD0A8B0013246C /* Squiggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1439C11FCD0A8B0013246C /* Squiggle.swift */; };
+		CC1439C21FCD0A8B0013246C /* SquiggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1439C11FCD0A8B0013246C /* SquiggleView.swift */; };
+		CCD7163C1FCFBD400074EC34 /* Squiggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD7163B1FCFBD400074EC34 /* Squiggle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,8 @@
 		CC1439B61FCD05B00013246C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC1439B91FCD05B00013246C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC1439BB1FCD05B00013246C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC1439C11FCD0A8B0013246C /* Squiggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squiggle.swift; sourceTree = "<group>"; };
+		CC1439C11FCD0A8B0013246C /* SquiggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquiggleView.swift; sourceTree = "<group>"; };
+		CCD7163B1FCFBD400074EC34 /* Squiggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squiggle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			children = (
 				CC1439AC1FCD05B00013246C /* AppDelegate.swift */,
 				CC1439AE1FCD05B00013246C /* ViewController.swift */,
-				CC1439C11FCD0A8B0013246C /* Squiggle.swift */,
+				CC1439C11FCD0A8B0013246C /* SquiggleView.swift */,
+				CCD7163B1FCFBD400074EC34 /* Squiggle.swift */,
 				CC1439B01FCD05B00013246C /* Main.storyboard */,
 				CC1439B61FCD05B00013246C /* Assets.xcassets */,
 				CC1439B81FCD05B00013246C /* LaunchScreen.storyboard */,
@@ -142,9 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD7163C1FCFBD400074EC34 /* Squiggle.swift in Sources */,
 				CC1439AF1FCD05B00013246C /* ViewController.swift in Sources */,
 				CC1439B51FCD05B00013246C /* Look__Ma__It_Draws.xcdatamodeld in Sources */,
-				CC1439C21FCD0A8B0013246C /* Squiggle.swift in Sources */,
+				CC1439C21FCD0A8B0013246C /* SquiggleView.swift in Sources */,
 				CC1439AD1FCD05B00013246C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
